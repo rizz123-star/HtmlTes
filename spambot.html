@@ -75,6 +75,7 @@
     background: #550000;
     cursor: not-allowed;
   }
+  
   /* Loading animation */
   .loader {
     border: 4px solid #fff3;
@@ -95,92 +96,78 @@
   .loading button span {
     visibility: hidden;
   }
-
-    @keyframes spin {
+  
+  @keyframes spin {
     0% { transform: translateY(-50%) rotate(0deg); }
     100% { transform: translateY(-50%) rotate(360deg); }
-
   }
-
-
 
   /* Result box */
-
   #resultBox {
-
     margin-top: 20px;
-
     background: #220000;
-
     padding: 15px;
-
     border-radius: 10px;
-
     max-height: 180px;
-
     overflow-y: auto;
-
     font-family: monospace;
-
     font-size: 14px;
-
     white-space: pre-wrap;
-
   }
-
 </style>
-
 </head>
-
 <body>
-
-
 
 <form id="spamForm">
   <h2>Telegram Spam Bot</h2>
+
   <label for="botToken">Bot Token</label>
   <input type="text" id="botToken" name="botToken" placeholder="Masukkan bot token" required />
-
 
   <label for="chatId">ID Telegram</label>
   <input type="text" id="chatId" name="chatId" placeholder="Masukkan ID chat" required />
 
-
   <label for="message">Pesan</label>
   <textarea id="message" name="message" placeholder="Tulis pesan di sini..." required></textarea>
-  
+
   <label for="count">Jumlah Pesan</label>
   <input type="number" id="count" name="count" placeholder="Jumlah pesan" min="1" max="50" required />
-
 
   <button type="submit"><span>Kirim</span>
     <div class="loader"></div>
   </button>
+
   <pre id="resultBox"></pre>
 </form>
 
-
 <audio id="completeAudio" src="https://files.catbox.moe/rnbbii.mp3" preload="auto"></audio>
+
 <script>
   const form = document.getElementById('spamForm');
   const btn = form.querySelector('button');
   const resultBox = document.getElementById('resultBox');
   const audio = document.getElementById('completeAudio');
+
   form.addEventListener('submit', async e => {
     e.preventDefault();
+
     const token = form.botToken.value.trim();
     const chatId = form.chatId.value.trim();
     const message = form.message.value.trim();
     let count = parseInt(form.count.value);
+
     if (!token || !chatId || !message || isNaN(count) || count < 1) {
-      alert('Jancok Yang Bener!');
+      alert('Mohon isi semua data dengan benar!');
       return;
     }
     if (count > 50) count = 50; // batasi max
+
     form.classList.add('loading');
     btn.disabled = true;
     resultBox.textContent = '';
+
     const apiUrlBase = `https://api.telegram.org/bot${token}/sendMessage`;
+
     for (let i = 1; i <= count; i++) {
       try {
         const response = await fetch(apiUrlBase, {
@@ -191,7 +178,9 @@
             text: message
           })
         });
+
         const data = await response.json();
+
         if (data.ok) {
           resultBox.textContent += `[${i}] Pesan terkirim ke ${chatId}\n`;
         } else {
@@ -200,14 +189,18 @@
       } catch (err) {
         resultBox.textContent += `[${i}] Error jaringan atau API: ${err.message}\n`;
       }
+
       resultBox.scrollTop = resultBox.scrollHeight;
       await new Promise(r => setTimeout(r, 700)); // delay antar pesan
     }
+
     form.classList.remove('loading');
     btn.disabled = false;
+
     audio.currentTime = 0;
     audio.play();
   });
 </script>
+
 </body>
 </html>
